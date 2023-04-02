@@ -7,7 +7,7 @@ console.log('Algoritmo de ordenação!')
 const notOrdered = [12, 23, 54, 3, 987, 0]
 
 function insertionSort(lista) {
-  // A propriedade lenght retorna o tamanho do array. Entretanto, como estamos com vetores é preciso relembrar que um vetor opera desde a posição 0. Ouseja, devemos manter nosso loop menor que o tamanho do array.
+  // A propriedade length retorna o tamanho do array. Entretanto, como estamos com vetores é preciso relembrar que um vetor opera desde a posição 0. Ou seja, devemos manter nosso loop menor que o tamanho do array.
   const n = lista.length
 
   // A chave é o elemento do array original antes de ser ordenado.
